@@ -1,0 +1,43 @@
+// Basic calculations
+print 8.5 / (2 * 9) - -3;
+
+//Boolean logic
+print !(6 - 4 > 3 * 2) == !false;
+
+// text value
+print "foo" + "bar" == "foobar";
+
+//string cancate
+print "hello" + " " + "world";
+
+// variable declaration
+var name = "james";
+print name;
+
+
+//global data
+var quickMaths = 9 + 10;
+quickMaths = quickMaths + 2;
+print quickMaths;
+
+
+//control flow
+
+//while loop
+var num = 0;
+while( num <= 3 ){
+  print num;
+  num = num + 1;
+}
+
+//while and if statement
+var is_running = true;
+var shopping_list = "";
+var item = "";
+
+//functions
+fun sayHi(){
+  print "Bill";
+}
+sayHi();
+
